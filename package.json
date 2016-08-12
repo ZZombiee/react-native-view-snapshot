@@ -17,19 +17,20 @@
     "README.md",
 	"ReactTestManager.java",
 	"ReactTestPackage.java",
-	"ReactTestView.java"
+	"ReactTestView.java",
+	"SnapshotterModule.java"
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jsierles/react-native-view-snapshot.git"
+    "url": "git+ssh://git@github.com:ZZombiee/react-native-view-snapshot.git"
   },
   "readme": "# react-native-view-snapshot\nTake snapshots of React Native views and cache to device storage\n",
   "readmeFilename": "README.md",
   "gitHead": "5e99ba8e714ba2fd0fe8771cfba8c6e78e7ed5d8",
   "bugs": {
-    "url": "https://github.com/jsierles/react-native-view-snapshot/issues"
+    "url": "https://github.com/ZZombiee/react-native-view-snapshot/issues"
   },
-  "homepage": "https://github.com/jsierles/react-native-view-snapshot#readme",
+  "homepage": "https://github.com/ZZombiee/react-native-view-snapshot#readme",
   "_id": "react-native-view-snapshot@0.0.1",
   "scripts": {},
   "_shasum": "769bd0a7e91c09b1e4cc48cc5622a6e08904f62d",
