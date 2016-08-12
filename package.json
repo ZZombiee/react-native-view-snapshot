@@ -14,7 +14,8 @@
     "ViewSnapshotter.js",
     "ViewSnapshotter.ios.js",
     "ViewSnapshotter.android.js",
-    "README.md"
+    "README.md",
+	"SnapshotterModule.java"
   ],
   "repository": {
     "type": "git",
