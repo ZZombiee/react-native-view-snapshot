@@ -8,7 +8,7 @@ var {
 var NativeViewSnapshotter = NativeModules.ViewSnapshotter;
 
 var ViewSnapshotter = {
-  saveSnapshotToPath: NativeViewSnapshotter.ViewSnapshotter
+  saveSnapshotToPath: NativeViewSnapshotter.screenshot
 };
 
 module.exports = ViewSnapshotter;
