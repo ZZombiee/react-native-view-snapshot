@@ -1,4 +1,4 @@
-package com.com.viewsnapshotexample;
+package com.viewsnapshotexample;
 
 import android.util.Log;
 import com.facebook.react.uimanager.SimpleViewManager;
