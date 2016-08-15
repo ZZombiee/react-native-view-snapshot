@@ -46,3 +46,5 @@ ViewSnapshotter.saveSnapshotToPath(React.findNodeHandle(this.refs.someView), som
 	```
     compile project(':react-native-view-snapshot')
 	```	
+4. 打开当前项目目录下的package.json文件
+   - 更改`"react-native-view-snapshot": "git+https://github.com/ZZombiee/react-native-view-snapshot.git"`
