@@ -31,7 +31,18 @@ ViewSnapshotter.saveSnapshotToPath(React.findNodeHandle(this.refs.someView), som
 * storing performant copies of complex static views, such as a set of layered PNGs with alpha transparency
 * sharing/uploading of snapshots specific view hierarchies, such as an image with a text overlay
 
+##Android配置
+1. Open up `android/app/src/main/java/[...]/MainActivity.java
+  - Add `import com.viewsnapshotexample.ReactTestPackage;` to the imports at the top of the file
+  - Add `new ReactTestPackage()` to the list returned by the `getPackages()` method
+2. Append the following lines to `android/settings.gradle`:
 
-## TODO
+	```
+	include ':react-native-view-snapshot'
+	project(':react-native-view-snapshot').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-view-snapshot/android')
+    ```
+3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
 
-* Android support https://github.com/facebook/react-native/pull/6431#issuecomment-204418900
+	```
+    compile project(':react-native-view-snapshot')
+	```	
