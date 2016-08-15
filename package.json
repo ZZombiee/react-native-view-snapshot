@@ -15,10 +15,7 @@
     "ViewSnapshotter.ios.js",
     "ViewSnapshotter.android.js",
     "README.md",
-	"ReactTestManager.java",
-	"ReactTestPackage.java",
-	"ReactTestView.java",
-	"SnapshotterModule.java"
+	"android"
   ],
   "repository": {
     "type": "git",
