@@ -1,4 +1,4 @@
-package com.example.react_native_test_view;
+package com.viewsnapshotexample;
 
 import android.app.Activity;
 import android.app.Application;

@@ -1,4 +1,4 @@
-package com.example.react_native_test_view;
+package com.com.viewsnapshotexample;
 
 import android.util.Log;
 import com.facebook.react.uimanager.SimpleViewManager;
