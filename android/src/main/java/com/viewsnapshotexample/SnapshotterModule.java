@@ -59,16 +59,18 @@ public class SnapshotterModule extends ReactContextBaseJavaModule {
                         // 获取内置SD卡路径
                         String sdCardPath = Environment.getExternalStorageDirectory().getPath();
                         // 图片文件路径
-                        String filePath = sdCardPath + File.separator + path;
+                        String filePath =  path;
 
                         File file = new File(filePath);
                         if (!file.exists()) {
                             try {
                                 file.createNewFile();
+                                Log.d("测试截图", file.exists()+"创建");
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
                         }
+                        Log.d("测试截图", file.exists()+"创建成功了吗");
                         FileOutputStream os = new FileOutputStream(file);
                         bmp.compress(Bitmap.CompressFormat.PNG, 100, os);
                         os.flush();
